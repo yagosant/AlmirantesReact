@@ -4,6 +4,8 @@ import React from 'react'
 
 export default function Login() {
   return (
-    <Main/>
+    <Form>
+      
+    </Form>
   )
 }
