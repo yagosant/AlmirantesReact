@@ -1,7 +1,7 @@
 import React from 'react'
 import * as Styled from "./button-style";
 export interface ButtonPropsInterface
-  extends React.ButtonHTMLAttributes<HTMLButtonElement> {}
+  extends React.HTMLAttributes<HTMLElement> {}
 
 export default function Button({
     children,
