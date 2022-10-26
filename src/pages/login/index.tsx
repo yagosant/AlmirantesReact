@@ -1,3 +1,4 @@
+
 import Form from 'components/atoms/form/form-index'
 import Button from 'components/particles/button/button-index'
 import Input from 'components/particles/input/input-index'
@@ -10,7 +11,6 @@ export default function Login() {
       <Logo/>
       <Input />
       <Button>ENTRAR</Button>
-
     </Form>
   )
 }

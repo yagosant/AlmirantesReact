@@ -1,6 +1,7 @@
 import React from 'react';
 import * as Styled from "./logo-style";
 
+
 export default function Logo() {
   return (
       <svg width="122" height="36" viewBox="0 0 122 36" fill="none" xmlns="http://www.w3.org/2000/svg">
