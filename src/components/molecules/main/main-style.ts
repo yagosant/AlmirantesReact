@@ -13,7 +13,7 @@ export const GlobalStyle = createGlobalStyle`
 `;
 
 
-export const Main = styled.main`
+export const StyledMain = styled.main`
     display: flex;
     justify-content: center;
     height: calc(100% - 76px);
