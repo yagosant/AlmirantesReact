@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import * as Styled from "./logo-style";
+
 
 export default function Logo() {
   return (

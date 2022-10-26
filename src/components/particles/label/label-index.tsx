@@ -1,5 +1,5 @@
 import React from 'react'
-import * as Styled from "./style";
+import * as Styled from "./label-style";
 export interface ButtonPropsInterface
   extends React.LabelHTMLAttributes<HTMLLabelElement> {}
 

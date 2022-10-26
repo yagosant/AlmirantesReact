@@ -1,5 +1,5 @@
 import React from 'react'
-import * as Styled from "./index";
+import * as Styled from "./button-style";
 export interface ButtonPropsInterface
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {}
 
