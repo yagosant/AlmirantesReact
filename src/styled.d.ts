@@ -11,6 +11,13 @@ declare module "styled-components" {
       secondary1: string;
       secondary2: string;
       secondary3: string;
+      secondary4: string;
+      success1: string;
+      success2: string;
+      alert1: string;
+      alert2: string;
+      error1: string;
+      error2: string;
     };
   }
 }

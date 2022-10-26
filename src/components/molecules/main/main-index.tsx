@@ -9,7 +9,7 @@ export default function Main({
     return(
         <>
             <Styled.GlobalStyle/>
-            <Styled.Main {...restProps}>{children}</Styled.Main>
+            <Styled.StyledMain {...restProps}>{children}</Styled.StyledMain>
         </>
     )
 }
