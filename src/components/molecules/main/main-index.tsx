@@ -1,12 +1,15 @@
-import Logo from 'components/particles/logo/logo-index';
-import React from 'react';
 import * as Styled from './main-style'
+export interface MainPropsInterface
+  extends React.HTMLAttributes<HTMLElement> {}
 
-export default function Main(){
+export default function Main({
+    children,
+    ...restProps
+  }: MainPropsInterface){
     return(
         <>
-        <Styled.GlobalStyle/>
-            <Styled.Main/>
+            <Styled.GlobalStyle/>
+            <Styled.Main {...restProps}>{children}</Styled.Main>
         </>
     )
 }
